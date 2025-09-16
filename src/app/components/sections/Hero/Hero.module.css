@@ -1,0 +1,28 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+
+  /* 🔹 Modern Grid Background */
+  background-color: #0a0f1c; /* base dark navy */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px; /* grid size */
+  overflow: hidden;
+}
+
+/* 🔹 Gradient Box Effect */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 20% 25%;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6, #9333ea);
+  opacity: 0.2;
+  border-radius: 24px;
+  filter: blur(80px);
+}
