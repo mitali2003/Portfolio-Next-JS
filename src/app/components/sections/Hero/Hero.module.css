@@ -1,9 +1,6 @@
 .hero {
-  position: relative;
-  min-height: 100vh;
   display: flex;
   color: white;
-  align-items: center;
 
   /* 🔹 Modern Grid Background */
   background-color: #0a0f1c; /* base dark navy */
