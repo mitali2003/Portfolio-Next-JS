@@ -7,8 +7,8 @@ const Skills = () => {
   return (
     <Card icon={<Award />} name="Technical Skills">
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-        {ALL_SKILLS.map((el, idx) => (
-          <SkillCard icon={el.icon} name={el.name} key={idx} />
+        {ALL_SKILLS.map(({ icon, name }) => (
+          <SkillCard icon={icon} name={name} key={name} />
         ))}
       </div>
     </Card>

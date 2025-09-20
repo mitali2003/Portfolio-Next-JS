@@ -7,10 +7,10 @@ const Interests = () => {
   return (
     <Card icon={<Heart />} name="Interests">
       <div className="space-x-2">
-        {All_Intrested_Technology.map((el, idx) => (
+        {All_Intrested_Technology.map(({ name }) => (
           <Button
-            key={idx}
-            text={el.name}
+            key={name}
+            text={name}
             color={"#E1E7EF"}
             backgroundColor={"#8B3BED"}
           />
