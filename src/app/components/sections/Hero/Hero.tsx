@@ -6,9 +6,9 @@ import ScrollButton from "./elements/ScrollButton";
 
 const Hero = () => (
   <section
-    className={`${styles.hero} relative flex flex-col items-center justify-center min-h-screen text-center px-4`}
+    className={`${styles.hero} relative flex flex-col items-center justify-center min-h-screen text-center px-5`}
   >
-    <div className="z-10 flex flex-col items-center justify-evenly min-h-screen w-full">
+    <div className="z-10 flex flex-col items-center justify-center gap-6 min-h-screen w-full">
       <HeroHeader />
       <HeroDescription />
       <HeroButton />

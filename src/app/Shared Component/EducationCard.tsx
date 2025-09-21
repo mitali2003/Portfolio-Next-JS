@@ -1,7 +1,6 @@
 import { EducationCardTypes } from "@/Types/sharedElementTypes";
 import Chips from "./Chips";
-import { Star } from "lucide-react";
-import { MapPin } from "lucide-react";
+import { Star, MapPin } from "lucide-react";
 
 const EducationCard = ({
   degreeName,
@@ -20,16 +19,16 @@ const EducationCard = ({
       className={`absolute left-0 top-0 h-full w-1 rounded-l-lg ${borderLeft}`}
     ></div>
 
-    <section className="flex flex-col gap-2 pl-4">
-      <section className="flex items-center justify-between">
-        <section className="font-extrabold text-xl md:text-2xl text-[#E3E9F1]">
+    <section className="flex flex-col gap-2">
+      <section className="flex flex-col lg:flex-row items-start space-y-2 lg:space-y-0 lg:items-center lg:justify-between">
+        <section className="font-extrabold text-lg md:text-xl text-[#E3E9F1]">
           {degreeName}
         </section>
         <Chips
           text={year}
           color={"#00F2FF"}
           backgroundColor="rgba(0, 242, 255, 0.1)"
-          className="text-xs font-semibold border-2 border-[#00F2FF] rounded-full items-center justify-center px-3 py-1"
+          className="text-xs font-semibold border-2 border-[#00F2FF] rounded-full items-center justify-center py-1"
         />
       </section>
 
@@ -48,7 +47,7 @@ const EducationCard = ({
       icon={<Star size={18} />}
       color={"#00F2FF"}
       text={marks}
-      className="font-semibold text-sm mt-2"
+      className="font-semibold text-sm mt-1 ps-0"
     />
 
     <div className="mt-3">

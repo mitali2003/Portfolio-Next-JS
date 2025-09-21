@@ -3,7 +3,7 @@ import EducationCard from "@/app/Shared Component/EducationCard";
 import ListItem from "@/app/Shared Component/ListItem";
 
 const EducationHistory = () => (
-  <section className="grid sm:grid-cols-1 md:grid-cols-2 gap-3 px-4">
+  <section className="grid sm:grid-cols-1 md:grid-cols-2 gap-3 px-5">
     {EDUCATION_INFO.map(
       ({
         name,

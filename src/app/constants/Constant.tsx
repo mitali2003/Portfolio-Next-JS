@@ -120,7 +120,75 @@ export const Social_Links = [
 export const buttons = [
   { icon: <FileText size={20} />, key: "file" },
   { icon: <FolderOpen size={20} />, key: "folder" },
-  { icon: <Linkedin size={20} />, key: "linkedin" },
-  { icon: <Github size={20} />, key: "github" },
-  { icon: <Mail size={20} />, key: "mail" },
+  {
+    icon: <Linkedin size={20} />,
+    key: "linkedin",
+    link: "https://www.linkedin.com/in/gohelmitali/",
+  },
+  {
+    icon: <Github size={20} />,
+    key: "github",
+    link: "https://github.com/mitali2003",
+  },
+  {
+    icon: <Mail size={20} />,
+    key: "mail",
+    link: "mailto:mitaligohel95@gmail.com",
+  },
+];
+
+export const experience = [
+  {
+    company: "BIGSCAL TECHNOLOGIES Pvt. Ltd.",
+    position: "React JS Developer",
+    date: "Jul 2024 – current",
+    location: "Surat, Gujarat, India · On-site",
+    type: "Client Project - (Under NDA)",
+    description:
+      "Currently working on a client-facing project under NDA. Involved in developing scalable, secure, and modular frontend systems using a modern web stack.",
+    responsibilities: [
+      "Building responsive and accessible React components for complex UI requirements.",
+      "Managing application state and asynchronous data flows using Redux and RTK Query.",
+      "Collaborating with the backend via OpenAPI for seamless integration.",
+    ],
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Material UI (MUI)",
+      "OpenAPI",
+      "Axios",
+      "Redux",
+      "RTK Query",
+      "GitLens",
+    ],
+  },
+
+  {
+    company: "BIGSCAL TECHNOLOGIES Pvt. Ltd.",
+    position: "React JS Developer",
+    date: "Jul 2024 – current",
+    location: "Surat, Gujarat, India · On-site",
+    type: "Product - Healthray Lab (LIMS)",
+    description:
+      "Contributed to Healthray Lab, a Laboratory Information Management System (LIMS) product aimed at digitizing and automating lab operations.",
+    responsibilities: [
+      "Implemented dynamic PDF report generation using real-time patient and test data.",
+      "Worked on the sample collection workflow to improve lab efficiency and accuracy.",
+    ],
+    techStack: ["JavaScript", "Redux", "Formik", "Bootstrap", "pdfmake"],
+  },
+
+  {
+    company: "BIGSCAL TECHNOLOGIES Pvt. Ltd.",
+    position: "Engineering Trainee",
+    date: "Jan 2024 – Jul 2024",
+    location: "Surat, Gujarat, India · On-site",
+    responsibilities: [
+      "Learned JavaScript fundamentals including functions, arrays, and DOM manipulation.",
+      "Built interactive UIs using React.js and practiced state management with Redux.",
+      "Used Formik for form building and validation, and styled UIs using Tailwind CSS.",
+    ],
+    techStack: ["JavaScript", "React.js", "Formik", "Redux", "Tailwind CSS"],
+  },
 ];
