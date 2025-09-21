@@ -1,5 +1,4 @@
 import Title from "@/app/Shared Component/Title";
-import React from "react";
 
 const Experience = () => (
   <section className="py-10">
