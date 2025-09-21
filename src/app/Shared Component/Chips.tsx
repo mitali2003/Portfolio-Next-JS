@@ -9,9 +9,9 @@ const Chips = ({
 }: ChipTypes) => (
   <div
     style={{ backgroundColor: backgroundColor, color: color }}
-    className={`rounded-2xl px-3 py-1 gap-2 font-medium items-center flex ${className}`}
+    className={`rounded-2xl px-3 py-1 gap-2 font-medium items-center text-center flex ${className}`}
   >
-    <span>{icon}</span>
+    {icon && <span>{icon}</span>}
     <span>{text}</span>
   </div>
 );

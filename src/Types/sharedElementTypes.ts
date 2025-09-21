@@ -48,3 +48,24 @@ export interface socialIconTypes {
   icon: React.ReactNode;
   link: string;
 }
+
+type ExperienceProject = {
+  type: string;
+  responsibilities: string[];
+  techStack: string[];
+  description?: string;
+};
+
+export type ExperienceData = {
+  company: string;
+  position: string;
+  date: string;
+  location: string;
+  projects?: ExperienceProject[];
+  responsibilities?: string[];
+  techStack?: string[];
+};
+
+export interface ExperinceItemTypes {
+  data: ExperienceData;
+}

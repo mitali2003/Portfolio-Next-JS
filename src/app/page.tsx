@@ -11,7 +11,6 @@ const page = () => (
       <About />
       <Education />
       <Experience />
-      <GetInTouch />
     </section>
   </section>
 );

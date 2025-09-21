@@ -2,7 +2,7 @@ import Title from "@/app/Shared Component/Title";
 import AboutInfo from "./elements/AboutInfo";
 
 const About = () => (
-  <section className="py-10">
+  <section className="py-8">
     <Title
       title="About Me"
       subTitle="Get to know more about my journey, skills, and what drives my passion for
