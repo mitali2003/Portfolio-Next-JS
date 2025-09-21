@@ -1,7 +1,6 @@
 import { EDUCATION_INFO } from "@/app/constants/Constant";
 import EducationCard from "@/app/Shared Component/EducationCard";
 import ListItem from "@/app/Shared Component/ListItem";
-import React from "react";
 
 const EducationHistory = () => (
   <section className="grid sm:grid-cols-1 md:grid-cols-2 gap-3 px-4">

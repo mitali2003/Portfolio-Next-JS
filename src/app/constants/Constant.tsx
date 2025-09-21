@@ -1,4 +1,11 @@
-import { Mail, MapPin, Github, Linkedin } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Github,
+  Linkedin,
+  FileText,
+  FolderOpen,
+} from "lucide-react";
 
 export const PERSONAL_DATA = [
   {
@@ -108,4 +115,12 @@ export const Social_Links = [
     icon: <Linkedin size={20} />,
     link: "https://www.linkedin.com/in/gohelmitali/",
   },
+];
+
+export const buttons = [
+  { icon: <FileText size={20} />, key: "file" },
+  { icon: <FolderOpen size={20} />, key: "folder" },
+  { icon: <Linkedin size={20} />, key: "linkedin" },
+  { icon: <Github size={20} />, key: "github" },
+  { icon: <Mail size={20} />, key: "mail" },
 ];
